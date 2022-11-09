@@ -1,3 +1,3 @@
-class Review < Active::ActiveRecord
+class Review < ActiveRecord::Base
  belongs_to :user
 end
