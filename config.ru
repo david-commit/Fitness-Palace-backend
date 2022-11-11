@@ -5,4 +5,8 @@ require_relative "./config/environment"
 use Rack::JSONBodyParser
 
 run ApplicationController # this is the line that starts the server
+use SignUpController
+use ContactController
+use ReviewController
+use AppointmentController
 
