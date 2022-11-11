@@ -4,7 +4,7 @@ class CreateAppointments < ActiveRecord::Migration[6.1]
       t.integer :user_id
       t.string :user_name
       t.string :workout
-      t.integer :date
+      t.string :date
       t.string :duration
       t.integer :trainer_id
       t.timestamps

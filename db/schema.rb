@@ -10,7 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_11_10_111438) do
+ActiveRecord::Schema.define(version: 2022_11_10_152635) do
+
+  create_table "add_trainers", force: :cascade do |t|
+    t.string "name"
+    t.string "job_title"
+    t.string "facebook"
+    t.string "twitter"
+    t.string "linkedin"
+    t.string "pintrest"
+    t.string "image"
+  end
 
   create_table "appointments", force: :cascade do |t|
     t.integer "user_id"
