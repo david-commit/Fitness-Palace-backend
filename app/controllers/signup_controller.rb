@@ -1,6 +1,6 @@
 class SignUpController < ApplicationController
 
- post "/users" do 
+ post "/user" do 
   user = User.create(
    first_name: params[:first_name],
    last_name: params[:last_name],
