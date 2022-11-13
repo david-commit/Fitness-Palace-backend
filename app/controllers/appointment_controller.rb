@@ -10,7 +10,7 @@ post "/appointment" do
    user_id: params[:user_id],
    workout: params[:workout],
    date: params[:date],
-   duration: params[:duration]
+   duration: params[:duration],
    trainer_id: params[:trainer_id]
   )
   app.to_json
